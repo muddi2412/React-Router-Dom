@@ -27,7 +27,49 @@
 .App-link {
   color: #61dafb;
 }
+.Navbar{
+  background-color: #282c34;
+  color: white;
+  font-size: 20px;
+  padding: 15px;
+  margin: 0 auto;
+  text-align: center;
+}
+.menu{
+  color: white!important;
+  text-decoration: none;
+  padding: 14px 20px ;
+}
+.active_class{
+  color: rgb(231, 9, 9)!important;
+  border-bottom: 2px solid red;
+}
 
+.img_container{
+  margin: 0 auto;
+  text-align: center;
+}
+.img_container h1{
+  color: purple;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.img_container input{
+  border: none;
+  outline: none;
+  font-size: 14px;
+  padding: 10px;
+  border-bottom: 2px solid purple;
+  font-weight: 500;
+  background-color: transparent;
+  background: white;
+}
+.img{
+  margin: 10px auto;
+}
+.img img {
+  border-radius: 12px;
+  box-shadow: 5px 8px 25px 0.05px;
+}
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
